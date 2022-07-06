@@ -21,6 +21,9 @@ main {
 
 #meme-text {
   font-family: monospace;
+  font-size: 30px;
+  color: white;
+  text-shadow:black 5px 5px 5px;
 }
 
 #meme-image {
