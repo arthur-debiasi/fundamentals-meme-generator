@@ -18,5 +18,14 @@ main{
 }
 
 #meme-text {
-    font-family: monospace
+    font-family: monospace  
+}
+
+#meme-insert {
+    object-fit: cover;
+}
+
+img {
+    size: 200px;
+    object-fit:fill;
 }
