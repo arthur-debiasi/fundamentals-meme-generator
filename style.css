@@ -15,17 +15,21 @@ main{
     height: 250px;
     width: 250px;
     border: 3px black solid;
+    background-color: white;
+    overflow: hidden;
 }
 
 #meme-text {
     font-family: monospace  
 }
 
-#meme-insert {
+#meme-image {
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
 img {
-    size: 200px;
-    object-fit:fill;
-}
+object-fit:scale-down;
+
+} 
