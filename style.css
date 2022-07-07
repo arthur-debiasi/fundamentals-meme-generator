@@ -22,7 +22,11 @@ main {
 }
 
 #meme-text {
-  font-family: monospace;
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+  line-height: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   color: white;
   text-shadow: black 5px 5px 5px;
@@ -33,3 +37,28 @@ main {
   height: 250px;
   object-fit: cover;
 }
+
+#fire {
+  background-color: rgb(255, 0, 0);
+}
+
+#water {
+  background-color: rgb(0, 0, 255);
+}
+
+#earth {
+  background-color: rgb(0, 128, 0);
+}
+/* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
+.fire {
+  border: 3px dashed rgb(255, 0, 0) !important;
+}
+
+.water {
+  border: 5px double rgb(0, 0, 255) !important;
+}
+
+.earth {
+  border: 6px groove rgb(0, 128, 0) !important;
+}
+/* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
