@@ -22,31 +22,40 @@ function memeInserter(event) {
 }
 document.addEventListener('input', memeInserter);
 
-function buttonsMemeBoard(element, text) {
+function buttonsMemeBorder(element, text) {
   const button = document.createElement('button');
   buttonsDiv.appendChild(button);
   button.id = element;
   button.innerText = text;
 }
-buttonsMemeBoard('fire', 'Borda de Fogo');
-buttonsMemeBoard('water', 'Borda de Água');
-buttonsMemeBoard('earth', 'Borda de Terra');
+buttonsMemeBorder('fire', 'Borda de Fogo');
+buttonsMemeBorder('water', 'Borda de Água');
+buttonsMemeBorder('earth', 'Borda de Terra');
 
-function fireBoard(event) {
+function fireBorder(event) {
   if (event.target.id === 'fire') {
     memeImageContainer.className = 'fire';
   }
 }
-function waterBoard(event) {
+function waterBorder(event) {
   if (event.target.id === 'water') {
     memeImageContainer.className = 'water';
   }
 }
-function earthBoard(event) {
+function earthBorder(event) {
   if (event.target.id === 'earth') {
     memeImageContainer.className = 'earth';
   }
 }
-document.addEventListener('click', fireBoard);
-document.addEventListener('click', waterBoard);
-document.addEventListener('click', earthBoard);
+document.addEventListener('click', fireBorder);
+document.addEventListener('click', waterBorder);
+document.addEventListener('click', earthBorder);
+
+function imgPreviewer(event) {
+  if (event.target.classList.contains('previewer')) {
+    const imgSrc = event.target.src;
+    previewImg.src = imgSrc;
+  }
+}
+
+document.addEventListener('click', imgPreviewer);
