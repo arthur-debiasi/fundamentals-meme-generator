@@ -25,7 +25,7 @@ main {
   width: 346px;
   text-align: center;
   line-height: 28px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, sans-serif;
   font-size: 30px;
   color: white;
   text-shadow: black 5px 5px 5px;
@@ -38,37 +38,35 @@ main {
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
-  margin: 10px 10px;
+  background-color: red;
+  margin: 10px;
 }
 
 #water {
-  background-color: rgb(0, 0, 255);
-  margin: 10px 10px;
+  background-color: blue;
+  margin: 10px;
 }
 
 #earth {
-  background-color: rgb(0, 128, 0);
-  margin: 10px 10px;
+  background-color: green;
+  margin: 10px;
 }
+
 /* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
 .fire {
-  border: 3px dashed rgb(255, 0, 0) !important;
+  border: 3px dashed red ! important;
 }
 
 .water {
-  border: 5px double rgb(0, 0, 255) !important;
+  border: 5px double blue ! important;
 }
 
 .earth {
-  border: 6px groove rgb(0, 128, 0) !important;
+  border: 6px groove green ! important;
 }
-/* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
 
-#meme-1,
-#meme-2,
-#meme-3,
-#meme-4 {
+/* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
+#meme-1 , #meme-2 , #meme-3 , #meme-4 {
   width: 70px;
   height: 70px;
   object-fit: cover;
