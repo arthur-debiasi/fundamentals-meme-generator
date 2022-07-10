@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <main>
-        <h1>MEME GENERATOR</h1>
-        <div>
+<body class="bg-light">
+    <main class="container-lg">
+        <h1 class="display-2">MEME GENERATOR</h1>
+        <div class="form-floating mb-3">
+            <input type="text" name="tMeme" maxlength="60" id="text-input" class="form-control">
             <label for="text-input">Texto:</label>
-            <input type="text" name="tMeme" maxlength="60" id="text-input">
         </div>
-        <input type="file" name="inputfile" accept="image/*" id="meme-insert">
+        <input type="file" name="inputfile" accept="image/*" id="meme-insert" class="form-control">
         <div id="meme-image-container">
             <img id="meme-image"></img>
             <div id="meme-text"></div>
@@ -27,6 +28,7 @@
             <img src="imgs/meme4.png" alt="" id="meme-4" class="previewer">
         </div>
     </main>
-<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

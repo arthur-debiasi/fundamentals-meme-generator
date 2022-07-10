@@ -27,6 +27,9 @@ function buttonsMemeBorder(element, text) {
   buttonsDiv.appendChild(button);
   button.id = element;
   button.innerText = text;
+  button.style.padding = '5px';
+  button.style.borderRadius = '6px';
+  button.style.color = 'white';
 }
 buttonsMemeBorder('fire', 'Borda de Fogo');
 buttonsMemeBorder('water', 'Borda de Água');

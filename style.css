@@ -1,6 +1,7 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  border-image: none;
 }
 
 main {
@@ -8,6 +9,10 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#meme-insert {
+  width: fit-content;
 }
 
 #meme-image-container {
@@ -19,16 +24,17 @@ main {
   overflow: hidden;
   background-color: white;
   border: 1px black solid;
+  border-radius: 5px;
 }
 
 #meme-text {
   width: 346px;
   text-align: center;
   line-height: 28px;
-  font-family: Impact, sans-serif;
   font-size: 30px;
   color: white;
   text-shadow: black 5px 5px 5px;
+  margin-bottom: 5px;
 }
 
 #meme-image {
@@ -67,14 +73,14 @@ main {
 
 /* eu usei !important por não achar outra maneira de cumprir o requisito 6 */
 #meme-1 , #meme-2 , #meme-3 , #meme-4 {
-  width: 70px;
-  height: 70px;
+  width: 85px;
+  height: 85px;
   object-fit: cover;
   padding: 6px;
+  border-radius: 10px;
 }
 
 #img-previewer {
-  border: 1px black solid;
   padding: 6px;
   display: flex;
   justify-content: space-around;
