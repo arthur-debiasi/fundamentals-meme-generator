@@ -1,4 +1,4 @@
-# [Trybe](https://www.betrybe.com/) Project - [Meme Generator](https://arthur-debiasi.github.io/fundamentals-meme-generator/)
+# [Trybe](https://www.betrybe.com/) Project - [Meme Generator](https://arthur-debiasi.github.io/trybe-fundamentals-meme-generator/)
 
 ## 💻 Project
 A meme generator page. The user can choose between 4 default images or upload a new image, type a text to display, and even choose a border style
